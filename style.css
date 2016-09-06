@@ -1,0 +1,50 @@
+body { 
+	color: white;
+	background-color:#4d4d4d;
+	margin: 20px;
+	border: 3px solid silver;
+}
+
+h1 {
+	padding-top: 30px;
+	color: #ffffff;
+	text-align: center;
+}
+
+h2 { 
+	margin-left: 50px;
+ }
+
+ h4 {
+ 	padding-top: 20px;
+ 	display: inline;
+ }
+
+a {
+	color: #00e699;
+	display: inline;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+img {
+	float: right;
+	border-style: groove;
+	padding: 5px;
+	margin-right: 40px;
+
+}
+
+p {
+	font-size: 14px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+hr {
+	margin-right: 40px;
+	margin-left: 40px;
+}
