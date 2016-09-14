@@ -1,71 +1,111 @@
 body {
-color: white;
-background-color: #4d4d4d;
-margin: 50px;
-padding: 25px;
-border: 3px solid silver;
+    color: white;
+    background-color: grey;
+    margin: 50px;
+    padding: 25px;
+    border: 3px solid silver;
 }
 
 h2 {
-font-size: 22px;
-padding-bottom: 10px;
+    font-size: 22px;
+    padding-bottom: 10px;
 }
 
 h1 {
 	margin: 0,0;
 }
 
+#Top {
+    color:#FFFFFF; 
+    font-style:italic;
+    text-align:center;
+}
+
 .overview {
 	margin-left: 50px;
 }
+
 .title {
-font-size: 18px;
-display: inline;
-color: white;
+    font-size: 18px;
+    color: white;
 }
 
 .company {
-font-size: 16px;
-display: inline;
-color: white;
+    font-size: 16px;
+    display: inline;
+    color: white;
 }
 
 .from {
-display: inline;
-color: #b3b3b3;
+    display: inline;
+    color: #b3b3b3;
 }
 
 .summary {
-color: #b3b3b3;
-font-size: 14px;
+    color: #b3b3b3;
+    font-size: 14px;
 }
 
 .background {
-font-size: 20px;
-color: ##b3b3b3;
-margin-left: 20px;
+    font-size: 20px;
+    color: ##b3b3b3;
+    margin-left: 20px;
 }
 
 .school {
-font-size: 17px;
-display: inline;
-color: white;
+    font-size: 17px;
+    display: inline;
+    color: white;
 }
 
 .degree {
-font-size: 16px;
-display: inline;
-color: #b3b3b3;
+    font-size: 16px;
+    display: inline;
+    color: #b3b3b3;
 }
 
 .year {
-font-size: 16px;
-display: inline;
-color: #b3b3b3;
+    font-size: 16px;
+    display: inline;
+    color: #b3b3b3;
 }
 
-hr {
+.social {
+    display:inline;
+    list-style:none;
+    border-right:#CCCCCC 1px solid;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.social a {
+    color: #FFFFFF;
+}
+/*.main-nav {
+    text-align:center;
+    padding:0;
+    text-decoration: none;
+
+}*/
+
+/*.main-nav ul li{
+    display:inline;
+    list-style:none;
+    background-color: blue;*/
+    /*border-right:#CCCCCC 1px solid;*/
+
+/*}*/
+/*.mainnav li {
+    display:inline;
+    list-style:none;
+    border-right:#CCCCCC 1px solid;
+    padding-left:10px;
+    padding-right:10px;
+}*/
+
+/*hr {
 color: solid grey;
 margin-right: 3px;
 margin-left: 25px;
 }
+*/

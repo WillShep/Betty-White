@@ -1,8 +1,14 @@
 body { 
 	color: white;
-	background-color:#4d4d4d;
+	background-color: grey;
 	margin: 20px;
 	border: 3px solid silver;
+	width:50%;
+	margin-left: 75px;
+	margin-right:75px;
+	padding:100px 200px 100px 200px;
+
+
 }
 
 h1 {
@@ -31,10 +37,11 @@ div {
 }
 
 img {
-	float: right;
-	border-style: groove;
-	padding: 5px;
-	margin-right: 40px;
+	float:right;
+    margin:10px;
+    margin-top:-2px;
+    padding:3px;
+    border:#CCCCCC 1px solid;
 
 }
 
@@ -46,5 +53,21 @@ p {
 
 hr {
 	margin-right: 40px;
-	margin-left: 40px;
+	margin-left: 40;
+}
+
+.mainnav li {
+    display:inline;
+    list-style:none;
+    /*border-right:#CCCCCC 1px solid;*/
+    text-align:center;
+}
+
+hr {
+color: solid grey;
+margin-right: 3px;
+margin-left: 25px;
+}
+
+.mainnav span{
 }
